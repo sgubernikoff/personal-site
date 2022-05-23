@@ -99,7 +99,7 @@ function Work() {
                   </a>
                   <a
                     className="link"
-                    href="https://github.com/sgubernikoff"
+                    href="https://github.com/deanscottg/Phase-2-project"
                     target="_blank"
                   >
                     GitHub
