@@ -1,38 +1,332 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  background-color: rgb(152, 196, 247);
+  overflow-x: hidden;
+  /* cursor: url(linksmall.png); */
+
+  /* background-image: url("https://i.gifer.com/DQru.gif");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+h1 {
+  font-size: 7vw;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bar {
+  width: 12%;
+  height: 100vh;
+  position: fixed;
+  background-color: rgb(100, 142, 189);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75%;
+}
+
+.content {
+  margin-left: 14%;
+  margin-top: -3%;
+  width: 88%;
+}
+
+.diamond {
+  width: 30%;
+}
+
+.nav-element {
+  font-family: Baskerville;
+  margin: 10px;
+  font-size: 2vw;
+  color: white;
+
+  /* cursor: url("link.png"); */
+  cursor: pointer;
+}
+
+.navlink-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-element:hover {
+  font-family: Baskerville;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 2vw;
+  color: white;
+  /* cursor: url("link.png"); */
+}
+
+.seg {
+  width: 100%;
+  margin-top: 11%;
+}
+
+.icon-holder {
+  display: flex;
+  align-content: flex-end;
+}
+.nav-icon {
+  width: 20%;
+  position: absolute;
+  bottom: 3%;
+  /* cursor: pointer; */
+}
+
+.handle {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+#home {
+  position: relative;
+  height: 175vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#work {
+  position: relative;
+  height: 130vh;
+}
+
+#contact {
+  height: 100vh;
+  position: relative;
+}
+
+.sam-name h1 {
+  font-size: 5.5vw;
+  margin-top: 4.1vw;
+}
+
+.tv-hold {
+  position: relative;
+  margin: auto;
+  margin-top: 10vw;
+  z-index: 2;
+}
+
+.tv {
+  position: absolute;
+  left: 15vw;
+  top: -12vw;
+  z-index: 3;
+  width: 55%;
+}
+
+.static-hold {
+  position: relative;
+  z-index: -2;
+}
+
+.static {
+  position: absolute;
+  left: 20vw;
+  width: 43%;
+  top: -4.4vw;
+  /* border-radius: 120px; */
+}
+.static-none {
+  display: inline-block;
+  position: relative;
+  left: 20vw;
+  width: 43%;
+  top: -4.4vw;
+  height: 28vw;
+  background-color: #003880;
+  overflow: scroll;
+
+  /* border-radius: 120px; */
+}
+
+.samuel {
+  font-size: 1.3vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: -1.7vh;
+  margin-bottom: 1vh;
+  overflow: scroll;
+  color: white;
+}
+
+.samuel-head {
+  font-family: baskerville;
+  text-align: center;
+  font-size: 1.65vw;
+  color: white;
+}
+
+.sign {
+  height: 4.75vw;
+  position: relative;
+  left: 14vw;
+  top: -0.4vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  margin: auto;
+  margin-top: 15%;
+}
+
+input {
+  margin-top: 1%;
+  width: 100%;
+  font-family: baskerville;
+  font-size: 2vw;
+}
+
+textarea {
+  margin-top: 1%;
+  width: 101%;
+  height: 8vw;
+  font-family: baskerville;
+  font-size: 2vw;
+}
+button {
+  width: 80%;
+  margin-top: 3%;
+  border-radius: 5px;
+  background-color: #003880;
+  color: white;
+  font-size: 12px;
+}
+
+.thankyou {
+  color: white;
+  width: fit-content;
+  margin: auto;
+  margin-top: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2vw;
+}
+
+.projects {
+  height: 100%;
+  background-color: #003880;
+  width: 30vw;
+  color: white;
+  border-radius: 10px;
+}
+
+.work-hold {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tilt {
+  margin-left: 1.75vw;
+  margin-top: 1.75vw;
+  height: 50%;
+}
+
+#work img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+#work h2 {
+  text-align: center;
+}
+
+#work a {
+  text-align: center;
+  color: white;
+}
+
+.contact-name {
+  font-size: 5.5vw;
+  position: relative;
+  top: 1vw;
+}
+
+.connect {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+}
+
+.details {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.link-hold {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  z-index: 3;
+}
+
+.link {
+  margin: 5%;
+  font-weight: bold;
+  font-size: 2vw;
+  z-index: 1;
+  border: solid;
+  text-decoration: none;
+  background-color: rgb(152, 196, 247);
+}
+
+.opaque {
+  position: absolute;
+  width: fit-content;
+  top: 0vw;
+  left: 0vw;
+}
+
+.links-hold {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  z-index: 3;
+}
+
+.links {
+  margin: 5%;
+  font-size: 2vw;
+  font-weight: bold;
+  z-index: 1;
+  border: solid;
+  text-decoration: none;
+  background-color: rgb(152, 196, 247);
 }
