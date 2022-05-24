@@ -173,14 +173,14 @@ h1 {
   font-family: baskerville;
   text-align: center;
   font-size: 1.65vw;
-  margin-top: 5.5vh;
+  margin-top: 4vw;
   color: white;
 }
 
 .sign {
-  height: 7vw;
+  height: 5vw;
   position: absolute;
-  margin-left: 37%;
+  margin-left: 42%;
   bottom: 30%;
 }
 
