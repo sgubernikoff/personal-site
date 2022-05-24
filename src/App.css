@@ -90,9 +90,17 @@ h1 {
   justify-content: center;
 }
 
+.homepage {
+  height: 130vw;
+}
+
+.homepage > .tv-hold {
+  margin-top: 15vw;
+}
+
 #home {
   position: relative;
-  height: 175vh;
+  /* height: 175vh; */
   display: flex;
   flex-direction: column;
 }
@@ -103,7 +111,7 @@ h1 {
 
 #contact {
   position: relative;
-  margin-bottom: 20vh;
+  height: 100vh;
 }
 
 .sam-name h1 {
@@ -119,10 +127,10 @@ h1 {
 
 .tv {
   position: absolute;
-  left: 15vw;
+  left: 9vw;
   top: -12vw;
   z-index: 3;
-  width: 55%;
+  width: 70%;
 }
 
 .static-hold {
@@ -132,18 +140,18 @@ h1 {
 
 .static {
   position: absolute;
-  left: 20vw;
-  width: 43%;
+  left: 16vw;
+  width: 54%;
   top: -4.4vw;
   /* border-radius: 120px; */
 }
 .static-none {
   display: inline-block;
   position: relative;
-  left: 20vw;
-  width: 43%;
+  left: 16vw;
+  width: 54%;
   top: -4.4vw;
-  height: 28vw;
+  height: 38vw;
   background-color: #003880;
   overflow: scroll;
 
@@ -154,10 +162,10 @@ h1 {
   font-size: 1.3vw;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  margin-left: 3.5vw;
-  margin-right: 3.5vw;
-  margin-top: -0.3vh;
-  margin-bottom: 1vh;
+  margin-left: 4.5vw;
+  margin-right: 4.5vw;
+  margin-top: 1.5vh;
+  margin-bottom: 0;
   color: white;
 }
 
@@ -165,14 +173,15 @@ h1 {
   font-family: baskerville;
   text-align: center;
   font-size: 1.65vw;
+  margin-top: 5.5vh;
   color: white;
 }
 
 .sign {
-  height: 4vw;
-  position: relative;
-  left: 15vw;
-  top: -0.85vw;
+  height: 7vw;
+  position: absolute;
+  margin-left: 37%;
+  bottom: 30%;
 }
 
 form {
