@@ -22,7 +22,9 @@ h1 {
 }
 
 .navbar {
-  height: 50vh;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,6 +52,7 @@ h1 {
 }
 
 .navlink-holder {
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,12 +73,13 @@ h1 {
 }
 
 .icon-holder {
+  position: absolute;
   display: flex;
-  align-content: flex-end;
+  top: 33vw;
 }
 .nav-icon {
-  width: 20%;
-  position: absolute;
+  width: 50%;
+  /* position: absolute; */
   bottom: 3%;
   /* cursor: pointer; */
 }
@@ -95,12 +99,11 @@ h1 {
 
 #work {
   position: relative;
-  height: 130vh;
 }
 
 #contact {
-  height: 100vh;
   position: relative;
+  margin-bottom: 20vh;
 }
 
 .sam-name h1 {
@@ -110,7 +113,6 @@ h1 {
 
 .tv-hold {
   position: relative;
-  margin: auto;
   margin-top: 10vw;
   z-index: 2;
 }
@@ -198,12 +200,12 @@ textarea {
   font-size: 2vw;
 }
 button {
-  width: 15vw;
+  width: 10vw;
   margin-top: 3%;
   border-radius: 10px;
   background-color: #003880;
   color: white;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 .thankyou {
@@ -218,22 +220,17 @@ button {
 }
 
 .projects {
-  height: 100%;
-  background-color: #003880;
+  background-color: transparent;
   width: 30vw;
-  color: white;
-  border-radius: 10px;
 }
 
 .work-hold {
-  position: relative;
-  width: 100%;
-  height: 50%;
   display: flex;
   align-content: flex-start;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-bottom: 30vh;
 }
 
 .tilt {
@@ -244,7 +241,7 @@ button {
 
 #work img {
   width: 100%;
-  height: 100%;
+  height: 25vh;
   border-radius: 10px;
 }
 
@@ -270,7 +267,7 @@ button {
   -webkit-font-smoothing: antialiased;
   color: white;
   font-weight: bold;
-  font-size: 2vh;
+  font-size: 2vw;
   text-align: center;
 }
 
