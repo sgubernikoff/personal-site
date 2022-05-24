@@ -127,7 +127,7 @@ h1 {
 
 .tv {
   position: absolute;
-  left: 9vw;
+  left: 11vw;
   top: -12vw;
   z-index: 3;
   width: 70%;
@@ -140,7 +140,7 @@ h1 {
 
 .static {
   position: absolute;
-  left: 16vw;
+  left: 18vw;
   width: 54%;
   top: -4.4vw;
   /* border-radius: 120px; */
@@ -148,7 +148,7 @@ h1 {
 .static-none {
   display: inline-block;
   position: relative;
-  left: 16vw;
+  left: 18vw;
   width: 54%;
   top: -4.4vw;
   height: 38vw;
