@@ -51,7 +51,7 @@ function Homepage() {
             <div className="static-none">
               <h3 className="samuel-head">{myGlitchEffects4}</h3>
               <p className="samuel">
-                I'm a web developer based in Brooklyn, New York. I am Flatiron
+                I'm a web developer based in Brooklyn, New York. I am a Flatiron
                 School graduate from the Full Stack Software Engineering
                 Program. My skills include, but are not limited to, Javascript,
                 React, Ruby on Rails, CSS. <br></br>
