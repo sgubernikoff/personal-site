@@ -11,8 +11,6 @@ function Contact() {
     setTimeout(() => {
       setSubmitted(true);
     }, 100);
-    var form = document.getElementById("my-form");
-    form.reset();
   };
 
   return (
