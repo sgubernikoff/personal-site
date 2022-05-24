@@ -152,11 +152,10 @@ h1 {
   font-size: 1.3vw;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-top: -1.7vh;
+  margin-left: 3.5vw;
+  margin-right: 3.5vw;
+  margin-top: -0.3vh;
   margin-bottom: 1vh;
-  overflow: scroll;
   color: white;
 }
 
@@ -168,10 +167,10 @@ h1 {
 }
 
 .sign {
-  height: 4.75vw;
+  height: 4vw;
   position: relative;
-  left: 14vw;
-  top: -0.4vw;
+  left: 15vw;
+  top: -0.85vw;
 }
 
 form {
@@ -199,12 +198,12 @@ textarea {
   font-size: 2vw;
 }
 button {
-  width: 80%;
+  width: 15vw;
   margin-top: 3%;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #003880;
   color: white;
-  font-size: 12px;
+  font-size: 2vw;
 }
 
 .thankyou {
@@ -238,9 +237,9 @@ button {
 }
 
 .tilt {
-  margin-left: 1.75vw;
-  margin-top: 1.75vw;
-  height: 50%;
+  margin-left: 2.75vw;
+  margin-top: 2.75vw;
+  height: 20%;
 }
 
 #work img {
@@ -271,7 +270,7 @@ button {
   -webkit-font-smoothing: antialiased;
   color: white;
   font-weight: bold;
-  font-size: larger;
+  font-size: 2vh;
   text-align: center;
 }
 
