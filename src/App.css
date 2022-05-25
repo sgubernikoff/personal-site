@@ -29,6 +29,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   margin-top: 75%;
+  overflow: scroll;
 }
 
 .content {
@@ -75,7 +76,7 @@ h1 {
 .icon-holder {
   position: absolute;
   display: flex;
-  top: 45vw;
+  top: 40vw;
 }
 .nav-icon {
   width: 50%;
