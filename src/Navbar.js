@@ -58,7 +58,7 @@ function NavBar() {
             <a
               target="_blank"
               className="handle"
-              href="https://indd.adobe.com/view/c63835d7-d038-4626-bb87-0f1eda86031f"
+              href="https://indd.adobe.com/view/2a7d2a66-d2ad-43a3-a3c4-699d6802ff19"
             >
               <img src={resume} className="nav-icon" />
             </a>
