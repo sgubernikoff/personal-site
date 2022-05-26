@@ -47,30 +47,29 @@ function NavBar() {
           >
             CONTACT
           </Link>
-        </div>
-
-        <div className="icon-holder">
-          <a
-            target="_blank"
-            className="handle"
-            href="https://www.linkedin.com/in/sam-gubernikoff-677145149/"
-          >
-            <img src={linked} className="nav-icon" />
-          </a>
-          <a
-            target="_blank"
-            className="handle"
-            href="https://indd.adobe.com/view/c63835d7-d038-4626-bb87-0f1eda86031f"
-          >
-            <img src={resume} className="nav-icon" />
-          </a>
-          <a
-            target="_blank"
-            className="handle"
-            href="https://github.com/sgubernikoff"
-          >
-            <img src={git} className="nav-icon" />
-          </a>
+          <div className="icon-holder">
+            <a
+              target="_blank"
+              className="handle"
+              href="https://www.linkedin.com/in/sam-gubernikoff-677145149/"
+            >
+              <img src={linked} className="nav-icon" />
+            </a>
+            <a
+              target="_blank"
+              className="handle"
+              href="https://indd.adobe.com/view/c63835d7-d038-4626-bb87-0f1eda86031f"
+            >
+              <img src={resume} className="nav-icon" />
+            </a>
+            <a
+              target="_blank"
+              className="handle"
+              href="https://github.com/sgubernikoff"
+            >
+              <img src={git} className="nav-icon" />
+            </a>
+          </div>
         </div>
       </nav>
     </div>
