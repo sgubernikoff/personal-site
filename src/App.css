@@ -127,6 +127,7 @@ h1 {
 
 #work {
   position: relative;
+  height: 100vh;
 }
 
 #contact {
