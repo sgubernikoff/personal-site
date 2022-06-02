@@ -39,6 +39,18 @@ function NavBar() {
           <Link
             className="nav-element"
             activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            SKILLS
+          </Link>
+          <img src={diamond} className="diamond" />
+          <Link
+            className="nav-element"
+            activeClass="active"
             to="contact"
             spy={true}
             smooth={true}

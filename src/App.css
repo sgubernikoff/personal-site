@@ -356,3 +356,23 @@ button {
   text-decoration: none;
   background-color: rgb(152, 196, 247);
 }
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.skill-icons {
+  width: 10vw;
+  margin: 1vw;
+}
+
+#skills {
+  position: relative;
+  height: 100vh;
+  margin-top: 20vh;
+}
