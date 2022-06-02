@@ -56,7 +56,7 @@ function Homepage() {
                 I'm a web developer based in Brooklyn, New York. I am a Flatiron
                 School graduate from the Full Stack Software Engineering
                 Program. My skills include, but are not limited to, Javascript,
-                React, Ruby on Rails, CSS. <br></br>
+                HTML, React, Ruby, Ruby on Rails, Photoshop, & CSS. <br></br>
                 <br></br>Before that, I was working in Marketing as a Media
                 Buyer for Coca Cola and Exxon Mobil. When I'm not coding, I
                 spend my time refining my wardrobe and playing basketball &
