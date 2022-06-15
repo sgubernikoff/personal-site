@@ -70,7 +70,7 @@ function NavBar() {
             <a
               target="_blank"
               className="handle"
-              href="https://docs.google.com/document/d/e/2PACX-1vTRATUNdqRRA267djh4jedUX0APRjoCU0pkfDSJFn0Bkva3AkNBlgf2jHfmMllumT-f--vu0NYX4jCK/pub"
+              href="https://indd.adobe.com/view/71a62bf4-d4ad-42b9-aee8-f2896f65a17a"
             >
               <img src={resume} className="nav-icon" />
             </a>
