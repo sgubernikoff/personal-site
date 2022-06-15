@@ -15,6 +15,17 @@ function Homepage() {
     setBlur(true);
   }
 
+  const names = ["Y", "M", "M", "A"];
+
+  function joinArray(arr) {
+    arr.push("S");
+    let backward = arr.reverse();
+    let newArr = backward.join(" :) ");
+    console.log(newArr);
+  }
+
+  joinArray(names);
+
   let myGlitchEffects4 = (
     <div>
       <Glitch dontGlitch={true} text={"Samuel Ethan Gubernikoff"} />
