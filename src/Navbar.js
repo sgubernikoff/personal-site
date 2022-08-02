@@ -5,6 +5,7 @@ import linked from "./linkedin.png";
 import git from "./github.png";
 import resume from "./resume.png";
 import diamond from "./diamond.png";
+import res from "./SamGubernikoffResume.pdf";
 
 function NavBar() {
   return (
@@ -67,11 +68,7 @@ function NavBar() {
             >
               <img src={linked} className="nav-icon" />
             </a>
-            <a
-              target="_blank"
-              className="handle"
-              href="https://indd.adobe.com/view/71a62bf4-d4ad-42b9-aee8-f2896f65a17a"
-            >
+            <a target="_blank" className="handle" href={res}>
               <img src={resume} className="nav-icon" />
             </a>
             <a
