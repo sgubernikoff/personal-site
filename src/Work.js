@@ -4,6 +4,7 @@ import kanye from "./kanye.png";
 import leaf from "./littleleaf.png";
 import earn from "./earn.png";
 import groupie from "./groupie.png";
+import talve from "./talvesteel.png";
 import opaque from "./opaque.png";
 import { Typewriter } from "react-teffex";
 
@@ -12,58 +13,54 @@ function Work() {
   const [detail2, setDetail2] = useState(true);
   const [detail3, setDetail3] = useState(true);
   const [detail4, setDetail4] = useState(true);
+  const [detail5, setDetail5] = useState(true);
 
   function enterYe() {
     setDetail(false);
     setDetail2(true);
     setDetail3(true);
     setDetail4(true);
+    setDetail5(true);
   }
 
-  function exitYe() {
-    setDetail(true);
-    setDetail2(true);
-    setDetail3(true);
-    setDetail4(true);
-  }
   function enterLeaf() {
     setDetail(true);
     setDetail2(false);
     setDetail3(true);
     setDetail4(true);
+    setDetail5(true);
   }
 
-  function exitLeaf() {
-    setDetail(true);
-    setDetail2(true);
-    setDetail3(true);
-    setDetail4(true);
-  }
   function enterGroup() {
     setDetail(true);
     setDetail2(true);
     setDetail3(false);
     setDetail4(true);
+    setDetail5(true);
   }
 
-  function exitGroup() {
-    setDetail(true);
-    setDetail2(true);
-    setDetail3(true);
-    setDetail4(true);
-  }
   function enterEarn() {
     setDetail(true);
     setDetail2(true);
     setDetail3(true);
     setDetail4(false);
+    setDetail5(true);
   }
 
-  function exitEarn() {
+  function enterSteel() {
     setDetail(true);
     setDetail2(true);
     setDetail3(true);
     setDetail4(true);
+    setDetail5(false);
+  }
+
+  function exitGroups() {
+    setDetail(true);
+    setDetail2(true);
+    setDetail3(true);
+    setDetail4(true);
+    setDetail5(true);
   }
 
   return (
@@ -79,13 +76,50 @@ function Work() {
       </h1>
       <div className="work-hold">
         <Tilt className="tilt">
+          {/* <h2>Earn A-Way</h2> */}
+          <div className="projects">
+            {!detail5 ? (
+              <div
+                className="details"
+                onMouseEnter={() => enterSteel()}
+                onMouseLeave={() => exitGroups()}
+              >
+                {" "}
+                <div className="links-hold">
+                  <img src={opaque} className="opaque" />
+                  <a
+                    className="links"
+                    href="https://anchorstainless.herokuapp.com"
+                    target="_blank"
+                  >
+                    Demo
+                  </a>
+                  <a
+                    className="links"
+                    href="https://github.com/sgubernikoff/Talve-Steel"
+                    target="_blank"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            ) : null}
+            <img
+              className="ye"
+              src={talve}
+              onMouseEnter={() => enterSteel()}
+              onMouseLeave={() => exitGroups()}
+            />
+          </div>
+        </Tilt>
+        <Tilt className="tilt">
           {/* <h2>Keeping Up With Kanye</h2> */}
           <div className="projects">
             {!detail ? (
               <div
                 className="details"
                 onMouseEnter={() => enterYe()}
-                onMouseLeave={() => exitYe()}
+                onMouseLeave={() => exitGroups()}
               >
                 {" "}
                 <div className="link-hold">
@@ -111,7 +145,7 @@ function Work() {
               className="ye"
               src={kanye}
               onMouseEnter={() => enterYe()}
-              onMouseLeave={() => exitYe()}
+              onMouseLeave={() => exitGroups()}
             />
           </div>
         </Tilt>
@@ -122,7 +156,7 @@ function Work() {
               <div
                 className="details"
                 onMouseEnter={() => enterLeaf()}
-                onMouseLeave={() => exitLeaf()}
+                onMouseLeave={() => exitGroups()}
               >
                 {" "}
                 <div className="link-hold">
@@ -148,7 +182,7 @@ function Work() {
               className="ye"
               src={leaf}
               onMouseEnter={() => enterLeaf()}
-              onMouseLeave={() => exitLeaf()}
+              onMouseLeave={() => exitGroups()}
             />
           </div>
         </Tilt>
@@ -159,7 +193,7 @@ function Work() {
               <div
                 className="details"
                 onMouseEnter={() => enterGroup()}
-                onMouseLeave={() => exitGroup()}
+                onMouseLeave={() => exitGroups()}
               >
                 {" "}
                 <div className="links-hold">
@@ -185,7 +219,7 @@ function Work() {
               className="ye"
               src={groupie}
               onMouseEnter={() => enterGroup()}
-              onMouseLeave={() => exitGroup()}
+              onMouseLeave={() => exitGroups()}
             />
           </div>
         </Tilt>
@@ -196,7 +230,7 @@ function Work() {
               <div
                 className="details"
                 onMouseEnter={() => enterEarn()}
-                onMouseLeave={() => exitEarn()}
+                onMouseLeave={() => exitGroups()}
               >
                 {" "}
                 <div className="links-hold">
@@ -222,7 +256,7 @@ function Work() {
               className="ye"
               src={earn}
               onMouseEnter={() => enterEarn()}
-              onMouseLeave={() => exitEarn()}
+              onMouseLeave={() => exitGroups()}
             />
           </div>
         </Tilt>
