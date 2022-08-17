@@ -370,14 +370,14 @@ button {
 }
 
 .sam_pic {
-  width: 30%;
+  width: 25%;
   clip-path: circle();
 }
 
 .pic_hold_sam {
   height: 5vw;
   position: absolute;
-  margin-left: 40%;
+  margin-left: 43%;
   bottom: 24%;
 }
 
