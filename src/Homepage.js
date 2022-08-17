@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from "react";
 import tv from "./tv.png";
+import tv2 from "./tv2.png";
 import { Glitch } from "react-teffex";
 import { Typewriter } from "react-teffex";
 import sam from "./sam.png";
@@ -15,16 +16,16 @@ function Homepage() {
     setBlur(true);
   }
 
-  const names = ["Y", "M", "M", "A"];
+  // const names = ["Y", "M", "M", "A"];
 
-  function joinArray(arr) {
-    arr.push("S");
-    let backward = arr.reverse();
-    let newArr = backward.join(" :) ");
-    console.log(newArr);
-  }
+  // function joinArray(arr) {
+  //   arr.push("S");
+  //   let backward = arr.reverse();
+  //   let newArr = backward.join(" :) ");
+  //   console.log(newArr);
+  // }
 
-  joinArray(names);
+  // joinArray(names);
 
   let myGlitchEffects4 = (
     <div>
@@ -49,7 +50,7 @@ function Homepage() {
         {/* <h1>SAM GUBERNIKOFF</h1> */}
         <div className="tv-hold">
           <img
-            src={tv}
+            src={blur ? tv : tv2}
             className="tv"
             onMouseEnter={() => enterTV()}
             onMouseLeave={() => exitTV()}
