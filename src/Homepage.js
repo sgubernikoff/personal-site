@@ -64,14 +64,16 @@ function Homepage() {
             <div className="static-none">
               <h3 className="samuel-head">{myGlitchEffects4}</h3>
               <p className="samuel">
-                I'm a web developer based in Brooklyn, New York. I am a Flatiron
-                School graduate from the Full Stack Software Engineering
-                Program. My skills include, but are not limited to, Javascript,
-                HTML, React, Ruby, Ruby on Rails, Photoshop, & CSS. <br></br>
-                <br></br>Before that, I was working in Marketing as a Media
-                Buyer for Coca Cola and Exxon Mobil. When I'm not coding, I
-                spend my time refining my wardrobe and playing basketball &
-                soccer.
+                I'm a freelance software engineer based in Brooklyn, New York. I
+                am certified in Full Stack Software Engineering from the
+                Flatiron School. My skills include, but are not limited to,
+                Javascript, HTML, React, Ruby, Ruby on Rails, Photoshop, & CSS.{" "}
+                <br></br>
+                <br></br>Before my time as a developer, I was working in the
+                marketing industry as a Media Buyer for Coca Cola and Exxon
+                Mobil. When I'm not coding, I spend my time refining my
+                wardrobe, watching the Mets, laughing with friends, and playing
+                basketball.
               </p>
               <img className="sign" src={sign}></img>
             </div>
