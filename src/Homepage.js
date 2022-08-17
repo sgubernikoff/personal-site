@@ -1,8 +1,8 @@
 import { React, useState, useEffect } from "react";
 import tv from "./tv.png";
-import sign from "./sign.png";
 import { Glitch } from "react-teffex";
 import { Typewriter } from "react-teffex";
+import sam from "./sam.png";
 
 function Homepage() {
   const [blur, setBlur] = useState(true);
@@ -75,7 +75,9 @@ function Homepage() {
                 wardrobe, watching the Mets, laughing with friends, and playing
                 basketball.
               </p>
-              <img className="sign" src={sign}></img>
+              <div className="pic_hold_sam">
+                <img src={sam} className="sam_pic" />
+              </div>
             </div>
           )}
           {/* </div> */}

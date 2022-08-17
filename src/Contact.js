@@ -1,5 +1,6 @@
 import { React, useState } from "react";
 import { Typewriter } from "react-teffex";
+import sign from "./sign.png";
 
 function Contact() {
   const FORM_ENDPOINT =
@@ -67,6 +68,9 @@ function Contact() {
           </form>
         </div>
       )}
+      <div className="sign_hold">
+        <img className="sign" src={sign}></img>
+      </div>
     </div>
   );
 }

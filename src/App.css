@@ -64,7 +64,7 @@ h1 {
 .nav-element {
   font-family: Baskerville;
   margin: 10px;
-  font-size: 2vw;
+  font-size: 1.95vw;
   color: white;
 
   /* cursor: url("link.png"); */
@@ -83,7 +83,7 @@ h1 {
   font-family: Baskerville;
   margin: 10px;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 1.95vw;
   color: #003880;
   /* cursor: url("link.png"); */
 }
@@ -195,13 +195,6 @@ h1 {
   font-size: 1.65vw;
   margin-top: 4vw;
   color: white;
-}
-
-.sign {
-  height: 5vw;
-  position: absolute;
-  margin-left: 42%;
-  bottom: 20%;
 }
 
 form {
@@ -374,4 +367,26 @@ button {
   position: relative;
   height: 100vh;
   margin-top: 20vh;
+}
+
+.sam_pic {
+  width: 30%;
+  clip-path: circle();
+}
+
+.pic_hold_sam {
+  height: 5vw;
+  position: absolute;
+  margin-left: 40%;
+  bottom: 24%;
+}
+
+.sign {
+  width: 30%;
+}
+
+.sign_hold {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
 }
