@@ -89,7 +89,7 @@ function Work() {
                   <img src={opaque} className="opaque" />
                   <a
                     className="links"
-                    href="https://anchorstainless.herokuapp.com"
+                    href="https://www.anchorstainless.com"
                     target="_blank"
                   >
                     Demo
