@@ -89,7 +89,7 @@ function Work() {
                   <img src={opaque} className="opaque" />
                   <a
                     className="links"
-                    href="https://www.anchorstainless.com"
+                    href="http://www.anchorstainless.com"
                     target="_blank"
                   >
                     Demo
