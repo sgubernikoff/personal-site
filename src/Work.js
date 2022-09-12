@@ -6,6 +6,7 @@ import earn from "./earn.png";
 import groupie from "./groupie.png";
 import talve from "./talvesteel.png";
 import opaque from "./opaque.png";
+import potd from "./potd.png";
 import { Typewriter } from "react-teffex";
 
 function Work() {
@@ -14,6 +15,7 @@ function Work() {
   const [detail3, setDetail3] = useState(true);
   const [detail4, setDetail4] = useState(true);
   const [detail5, setDetail5] = useState(true);
+  const [detail6, setDetail6] = useState(true);
 
   function enterYe() {
     setDetail(false);
@@ -21,6 +23,7 @@ function Work() {
     setDetail3(true);
     setDetail4(true);
     setDetail5(true);
+    setDetail6(true);
   }
 
   function enterLeaf() {
@@ -29,6 +32,7 @@ function Work() {
     setDetail3(true);
     setDetail4(true);
     setDetail5(true);
+    setDetail6(true);
   }
 
   function enterGroup() {
@@ -37,6 +41,7 @@ function Work() {
     setDetail3(false);
     setDetail4(true);
     setDetail5(true);
+    setDetail6(true);
   }
 
   function enterEarn() {
@@ -45,6 +50,7 @@ function Work() {
     setDetail3(true);
     setDetail4(false);
     setDetail5(true);
+    setDetail6(true);
   }
 
   function enterSteel() {
@@ -53,6 +59,16 @@ function Work() {
     setDetail3(true);
     setDetail4(true);
     setDetail5(false);
+    setDetail6(true);
+  }
+
+  function enterPick() {
+    setDetail(true);
+    setDetail2(true);
+    setDetail3(true);
+    setDetail4(true);
+    setDetail5(true);
+    setDetail6(false);
   }
 
   function exitGroups() {
@@ -61,6 +77,7 @@ function Work() {
     setDetail3(true);
     setDetail4(true);
     setDetail5(true);
+    setDetail6(true);
   }
 
   return (
@@ -113,43 +130,6 @@ function Work() {
           </div>
         </Tilt>
         <Tilt className="tilt">
-          {/* <h2>Keeping Up With Kanye</h2> */}
-          <div className="projects">
-            {!detail ? (
-              <div
-                className="details"
-                onMouseEnter={() => enterYe()}
-                onMouseLeave={() => exitGroups()}
-              >
-                {" "}
-                <div className="link-hold">
-                  <img src={opaque} className="opaque" />
-                  <a
-                    className="link"
-                    href="https://keeping-up-with-kanye.herokuapp.com/"
-                    target="_blank"
-                  >
-                    Demo
-                  </a>
-                  <a
-                    className="link"
-                    href="https://github.com/deanscottg/Phase-2-project"
-                    target="_blank"
-                  >
-                    GitHub
-                  </a>
-                </div>
-              </div>
-            ) : null}
-            <img
-              className="ye"
-              src={kanye}
-              onMouseEnter={() => enterYe()}
-              onMouseLeave={() => exitGroups()}
-            />
-          </div>
-        </Tilt>
-        <Tilt className="tilt">
           {/* <h2>Little Leaf</h2> */}
           <div className="projects">
             {!detail2 ? (
@@ -182,6 +162,81 @@ function Work() {
               className="ye"
               src={leaf}
               onMouseEnter={() => enterLeaf()}
+              onMouseLeave={() => exitGroups()}
+            />
+          </div>
+        </Tilt>
+        <Tilt className="tilt">
+          {/* <h2>Keeping Up With Kanye</h2> */}
+          <div className="projects">
+            {!detail6 ? (
+              <div
+                className="details"
+                onMouseEnter={() => enterPick()}
+                onMouseLeave={() => exitGroups()}
+              >
+                {" "}
+                <div className="link-hold">
+                  <img src={opaque} className="opaque" />
+                  <a
+                    className="link"
+                    href="https://pickoftheday.herokuapp.com/"
+                    target="_blank"
+                  >
+                    Demo
+                  </a>
+                  <a
+                    className="link"
+                    href="https://github.com/agubernikoff/potd"
+                    target="_blank"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            ) : null}
+            <img
+              className="ye"
+              src={potd}
+              onMouseEnter={() => enterPick()}
+              onMouseLeave={() => exitGroups()}
+            />
+          </div>
+        </Tilt>
+
+        <Tilt className="tilt">
+          {/* <h2>Keeping Up With Kanye</h2> */}
+          <div className="projects">
+            {!detail ? (
+              <div
+                className="details"
+                onMouseEnter={() => enterYe()}
+                onMouseLeave={() => exitGroups()}
+              >
+                {" "}
+                <div className="link-hold">
+                  <img src={opaque} className="opaque" />
+                  <a
+                    className="link"
+                    href="https://keeping-up-with-kanye.herokuapp.com/"
+                    target="_blank"
+                  >
+                    Demo
+                  </a>
+                  <a
+                    className="link"
+                    href="https://github.com/deanscottg/Phase-2-project"
+                    target="_blank"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            ) : null}
+            <img
+              className="ye"
+              src={kanye}
+              onMouseEnter={() => enterYe()}
               onMouseLeave={() => exitGroups()}
             />
           </div>
